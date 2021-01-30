@@ -1,0 +1,17 @@
+h1, h2, h3 {
+    font-family: 'Acme', sans-serif;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #F8F1F1, #F8F1F1, #F8F1F1);
+    color: #F8F1F1;
+}
+
+.jumbotron-center {
+    /* Rectangle 1 */
+background: #11698E;
+border-radius: 29px;
+}
+
