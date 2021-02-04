@@ -1,0 +1,55 @@
+$color-primary: #19456b;
+$color-secondary: #5637dd;
+$color-tertiary: #11698E;
+$color-pale: #f8f1f1;
+$color-accent: #16c79a;
+
+body {
+    background-color: $color-pale;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    color: $color-pale;
+}
+
+h2, h3 {
+    font-family: 'Acme', sans-serif;
+    color: $color-primary;
+}
+
+p {
+    color: $color-primary;
+}
+
+.btn-primary {
+    background-color: $color-accent;
+    color: $color-primary;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: $color-pale;
+    color: $color-pale;
+}
+
+.jumbotron-center {
+    /* Center rectangle on the header */
+background: $color-tertiary;
+border-radius: 29px;
+}
+
+.navbar {
+    background-color: $color-primary; 
+    font-family: 'Acme', sans-serif;
+}
+
+.site-footer {
+    background-color: $color-primary;
+    color: $color-pale;
+}
+
+.site-footer-text {
+    color: $color-pale;
+}

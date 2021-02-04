@@ -1,17 +1,39 @@
-h1, h2, h3 {
-    font-family: 'Acme', sans-serif;
-}
+body {
+  background-color: #f8f1f1; }
+
+h1 {
+  font-family: 'Acme', sans-serif;
+  color: #f8f1f1; }
+
+h2, h3 {
+  font-family: 'Acme', sans-serif;
+  color: #19456b; }
+
+p {
+  color: #19456b; }
+
+.btn-primary {
+  background-color: #16c79a;
+  color: #19456b; }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #F8F1F1, #F8F1F1, #F8F1F1);
-    color: #F8F1F1;
-}
+  margin: 0;
+  padding: 30px;
+  background-color: #f8f1f1;
+  color: #f8f1f1; }
 
 .jumbotron-center {
-    /* Rectangle 1 */
-background: #11698E;
-border-radius: 29px;
-}
+  /* Center rectangle on the header */
+  background: #11698E;
+  border-radius: 29px; }
 
+.navbar {
+  background-color: #19456b;
+  font-family: 'Acme', sans-serif; }
+
+.site-footer {
+  background-color: #19456b;
+  color: #f8f1f1; }
+
+.site-footer-text {
+  color: #f8f1f1; }
