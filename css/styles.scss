@@ -19,6 +19,7 @@ h2, h3 {
 }
 
 p {
+    font-family: 'Acme', sans-serif;
     color: $color-primary;
 }
 
@@ -40,9 +41,26 @@ background: $color-tertiary;
 border-radius: 29px;
 }
 
+.parallax {
+    background-image: url("display.webp");
+    height: 750px;
+  
+    /* Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .navbar {
     background-color: $color-primary; 
     font-family: 'Acme', sans-serif;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 2px ridge;
+    min-height: 200px;
 }
 
 .site-footer {

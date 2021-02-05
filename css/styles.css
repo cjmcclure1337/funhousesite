@@ -10,6 +10,7 @@ h2, h3 {
   color: #19456b; }
 
 p {
+  font-family: 'Acme', sans-serif;
   color: #19456b; }
 
 .btn-primary {
@@ -27,9 +28,23 @@ p {
   background: #11698E;
   border-radius: 29px; }
 
+.parallax {
+  background-image: url("display.webp");
+  height: 750px;
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .navbar {
   background-color: #19456b;
   font-family: 'Acme', sans-serif; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 2px ridge;
+  min-height: 200px; }
 
 .site-footer {
   background-color: #19456b;
