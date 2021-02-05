@@ -44,7 +44,7 @@ p {
 .row-content {
   padding: 50px 0;
   border-bottom: 2px ridge;
-  min-height: 200px; }
+  min-height: 100px; }
 
 .site-footer {
   background-color: #19456b;
