@@ -1,6 +1,5 @@
 $color-primary: #19456b;
-$color-secondary: #5637dd;
-$color-tertiary: #11698E;
+$color-secondary: #11698E;
 $color-pale: #f8f1f1;
 $color-accent: #16c79a;
 
@@ -28,6 +27,32 @@ p {
     color: $color-primary;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: $color-accent;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: $color-accent;
+}
+
+.carousel-indicators .active{
+    background-color: $color-accent;
+}
+
 .jumbotron {
     margin: 0;
     padding: 30px;
@@ -37,7 +62,7 @@ p {
 
 .jumbotron-center {
     /* Center rectangle on the header */
-background: $color-tertiary;
+background: $color-secondary;
 border-radius: 29px;
 }
 
