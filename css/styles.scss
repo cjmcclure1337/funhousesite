@@ -7,7 +7,7 @@ body {
     background-color: $color-pale;
 }
 
-h1 {
+h1, h4 {
     font-family: 'Acme', sans-serif;
     color: $color-pale;
 }
@@ -53,6 +53,21 @@ p {
     background-color: $color-accent;
 }
 
+.friends-body {
+    background-color: $color-accent;
+}
+
+.friends-header {
+    background-color: $color-primary;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.friends-title {
+    padding-left: 20px;
+}
+
 .jumbotron {
     margin: 0;
     padding: 30px;
@@ -67,7 +82,7 @@ border-radius: 29px;
 }
 
 .parallax {
-    background-image: url("display.webp");
+    background-image: url("../img/display.webp");
     height: 750px;
   
     /* Parallax scrolling effect */

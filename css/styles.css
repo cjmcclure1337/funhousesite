@@ -1,7 +1,7 @@
 body {
   background-color: #f8f1f1; }
 
-h1 {
+h1, h4 {
   font-family: 'Acme', sans-serif;
   color: #f8f1f1; }
 
@@ -38,6 +38,18 @@ p {
 .carousel-indicators .active {
   background-color: #16c79a; }
 
+.friends-body {
+  background-color: #16c79a; }
+
+.friends-header {
+  background-color: #19456b;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0; }
+
+.friends-title {
+  padding-left: 20px; }
+
 .jumbotron {
   margin: 0;
   padding: 30px;
@@ -50,7 +62,7 @@ p {
   border-radius: 29px; }
 
 .parallax {
-  background-image: url("display.webp");
+  background-image: url("../img/display.webp");
   height: 750px;
   /* Parallax scrolling effect */
   background-attachment: fixed;
