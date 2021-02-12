@@ -3,6 +3,33 @@ $color-secondary: #11698E;
 $color-pale: #f8f1f1;
 $color-accent: #16c79a;
 
+a:link {
+    color: $color-accent;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 1px solid $color-accent;
+}
+a:visited {
+    color: $color-secondary;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 1px solid $color-secondary;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+}
+a:active {
+    color: $color-pale;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 1px solid $color-pale;
+}
+
+
+
 body {
     background-color: $color-pale;
 }
@@ -53,6 +80,14 @@ p {
     background-color: $color-accent;
 }
 
+.fhDark {
+    color: $color-primary;
+}
+
+.fhLight {
+    color: $color-pale;
+}
+
 .friends-body {
     background-color: $color-accent;
 }
@@ -79,6 +114,11 @@ p {
     /* Center rectangle on the header */
 background: $color-secondary;
 border-radius: 29px;
+}
+
+.nav-item a {
+    border-bottom: none;
+    font-size: 150%;
 }
 
 .parallax {
