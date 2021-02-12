@@ -2,6 +2,13 @@ $color-primary: #19456b;
 $color-secondary: #11698E;
 $color-pale: #f8f1f1;
 $color-accent: #16c79a;
+$ebony-bg: #272731;
+$ebony-accent: #B4AD86;
+$jade-bg: #7AB1C5;
+$jade-accent: #E5CC93;
+$denim-bg: #9C6320;
+$denim-accent: #738C99;
+
 
 a:link {
     color: $color-accent;
@@ -47,6 +54,49 @@ h2, h3 {
 p {
     font-family: 'Acme', sans-serif;
     color: $color-primary;
+}
+
+.btn-ebony {
+    background-color: $ebony-bg;
+    color: $ebony-accent;
+    font-family: 'Acme', sans-serif;
+    font-size: 200%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;   
+}
+
+.btn-ebony.active {
+    border-color: $color-accent;
+    border-width: 4px;
+}
+
+.btn-jade {
+    background-color: $jade-bg;
+    color: $jade-accent;
+    font-family: 'Acme', sans-serif;
+    font-size:200%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.btn-jade.active {
+    border-color: $color-accent;
+    border-width: 4px;
+}
+
+.btn-denim {
+    background-color: $denim-bg;
+    color: $denim-accent;
+    font-family: 'Acme', sans-serif;
+    font-size: 200%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.btn-denim.active {
+    border-color: $color-accent;
+    border-width: 4px;
 }
 
 .btn-primary {
@@ -151,3 +201,4 @@ border-radius: 29px;
 .site-footer-text {
     color: $color-pale;
 }
+
