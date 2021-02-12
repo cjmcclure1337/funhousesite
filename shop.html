@@ -46,89 +46,118 @@
              </button>
              <div class="collapse navbar-collapse" id="funhouseNavBar">
                  <ul class="navbar-nav">
-                     <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                     <li class="nav-item"><a class="nav-link" href="#"> Shop</a></li>
+                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                     <li class="nav-item active"><a class="nav-link" href="#"> Shop</a></li>
                      <li class="nav-item"><a class="nav-link" href="friends.html"> Friends</a></li>
                      <li class="nav-item"><a class="nav-link" href="about.html"></i> About the Potter</a></li>
                  </ul>
              </div>
          </div>
-     </nav>
+      </nav>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col text-center">
-                <h1 class="fhDark">Funhouse Shop</h1>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col text-center">
-                <h4 class="fhDark">Select a Glaze</h4>
-            </div>
-        </div>
-        <div class="form-group row">
+      <div class="container mt-5">
+         <div class="row">
+               <div class="col text-center">
+                  <h1 class="fhDark">Funhouse Shop</h1>
+               </div>
+         </div>
+         <div class="row mt-3">
+               <div class="col text-center">
+                  <h4 class="fhDark">Select a Glaze</h4>
+               </div>
+         </div>
+         <div class="form-group row">
             <div class="col-3"></div>
-            <div class="col-6 btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-ebony active">
-                    <input type="radio" name="glazeType" value="ebony" id="glazeEbony" autocomplete="off" checked> Ebony
-                </label>
-                <label class="btn btn-jade">
-                    <input type="radio" name="glazeType" value="jade" id="glazeJade" autocomplete="off"> Jade
-                </label>
-                <label class="btn btn-denim">
-                    <input type="radio" name="glazeType" value="denim" id="glazeDenim" autocomplete="off"> Denim
-                </label>
+            <div class="col-6 btn-group btn-group-toggle" id="glazeRadio" data-toggle="buttons">
+               <label class="btn btn-ebony active">
+                  <input type="radio" name="glazeType" value="ebony" id="glazeEbony" autocomplete="off" checked> Ebony
+               </label>
+               <label class="btn btn-jade">
+                  <input type="radio" name="glazeType" value="jade" id="glazeJade" autocomplete="off"> Jade
+               </label>
+               <label class="btn btn-denim">
+                  <input type="radio" name="glazeType" value="denim" id="glazeDenim" autocomplete="off"> Denim
+               </label>
             </div>
-        </div>
-
-    </div>
+         </div>
+         <div class="row">
+            <div class="col text-center">
+               <img src="img/shopItems/mugebony.webp" id="shopImg" alt="Pottery">
+            </div>
+         </div>
+         <div class="row mt-3">
+            <div class="col">
+               <select class="form-control form-select" name="potType" id="potType">
+                  <option value="mug">Select...</option>
+                  <option value="mug">Coffee Mug&ensp;$25.00</option>
+                  <option value="smallcup">Small Cup&ensp;$25.00</option>
+                  <option value="sspiralcup">Short Cup, Spiral&ensp;$25.00</option>
+                  <option value="lspiralcup">Tall Cup, Spiral&ensp;$25.00</option>
+                  <option value="scurvecup">Short Cup, Curved&ensp;$25.00</option>
+                  <option value="lcurvecup">Tall Cup, Curved&ensp;$25.00</option>
+                  <option value="stein">Tall Cup w/ Handle&ensp;$25.00</option>
+                  <option value="sbowl">Small bowl&ensp;$25.00</option>
+                  <option value="shandlebowl">Small bowl w/ Handles&ensp;$25.00</option>
+                  <option value="dbowl">Dinner Bowl&ensp;$25.00</option>
+                  <option value="lhandlebowl">Serving Bowl w/ Handles&ensp;$25.00</option>
+                  <option value="3bowl">3-in-One Bowl&ensp;$25.00</option>
+                  <option value="oliveoil">Olive Oil Dispenser&ensp;$25.00</option>
+                  <option value="teapot">Tea Pot&ensp;$25.00</option>
+               </select> 
+            </div>
+         </div>
+         <div class="row my-3">
+            <div class="col text-center">
+               <button class="btn btn-lg btn-primary">Add to Cart</button>
+            </div>
+         </div>
+      </div>
 
      
-     <footer class="site-footer">
-        <div class="container">
-           <div class="row"> 
-              <div class="col-12 col-md-4">
-                 <div class="media mt-3">
-                    <img class="" src="img/logo.webp" alt="Funhouse Logo" style="border-radius: 65px;">
-                    <div class="media-body align-self-center">
-                       <h1>Funhouse<br/>Pottery</h1>
-                    </div>
-                 </div>
-              </div>            
-              <div class="col-4 col-sm-3 offset-1">
-                 <h1>Links</h1>
-                 <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="cart.html">Cart</a></li>
-                    <li><a href="friends.html">Friends</a></li>
-                    <li><a href="about.html">About the Potter</a></li>
-                 </ul>
-              </div>
-              <div class="col">
-                 <h1>Subscribe</h1>
-                 <p class="site-footer-text">Subscribe to our newsletter for update on events and new products.</p>
-                 <div class="form-group row">
-                    <div class="col-md-10">
+   <footer class="site-footer">
+      <div class="container">
+         <div class="row"> 
+            <div class="col-12 col-md-4">
+               <div class="media mt-3">
+                  <img class="" src="img/logo.webp" alt="Funhouse Logo" style="border-radius: 65px;">
+                  <div class="media-body align-self-center">
+                     <h1>Funhouse<br/>Pottery</h1>
+                  </div>
+               </div>
+            </div>            
+            <div class="col-4 col-sm-3 offset-1">
+               <h1>Links</h1>
+               <ul class="list-unstyled">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                  <li><a href="friends.html">Friends</a></li>
+                  <li><a href="about.html">About the Potter</a></li>
+               </ul>
+            </div>
+            <div class="col">
+               <h1>Subscribe</h1>
+               <p class="site-footer-text">Subscribe to our newsletter for update on events and new products.</p>
+               <div class="form-group row">
+                  <div class="col-md-10">
                         <input type="text" class="form-control" id="footerSubscribe" name="footerSubscribe" placeholder="Email" />
-                    </div>
-                </div> 
-                <div class="form-group row">
-                    <div class="col-md-10">
-                       <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </div>
-                 </div>
-              </div>
-
-         
-        </div>
-     </div>
- </footer>
+                  </div>
+               </div> 
+               <div class="form-group row">
+                  <div class="col-md-10">
+                     <button type="submit" class="btn btn-primary">Subscribe</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
 
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+   <script src="js/scripts.js"></script>
+   </body>
 </html>

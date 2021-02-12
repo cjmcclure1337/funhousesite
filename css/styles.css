@@ -39,39 +39,42 @@ p {
 
 .btn-ebony {
   background-color: #272731;
-  color: #B4AD86;
+  color: white;
   font-family: 'Acme', sans-serif;
   font-size: 200%;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .75px;
   -webkit-text-stroke-color: black; }
 
 .btn-ebony.active {
   border-color: #16c79a;
-  border-width: 4px; }
+  border-width: 4px;
+  color: white; }
 
 .btn-jade {
   background-color: #7AB1C5;
-  color: #E5CC93;
+  color: white;
   font-family: 'Acme', sans-serif;
   font-size: 200%;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .75px;
   -webkit-text-stroke-color: black; }
 
 .btn-jade.active {
   border-color: #16c79a;
-  border-width: 4px; }
+  border-width: 4px;
+  color: white; }
 
 .btn-denim {
   background-color: #9C6320;
-  color: #738C99;
+  color: white;
   font-family: 'Acme', sans-serif;
   font-size: 200%;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .75px;
   -webkit-text-stroke-color: black; }
 
 .btn-denim.active {
   border-color: #16c79a;
-  border-width: 4px; }
+  border-width: 4px;
+  color: white; }
 
 .btn-primary {
   background-color: #16c79a;
