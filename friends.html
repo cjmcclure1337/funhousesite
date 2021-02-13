@@ -20,24 +20,20 @@
         <header class="jumbotron jumbotron-fluid py-0">
             <div class="container">
                 <div class="row">
-                <div class="col">
-                </div>
-                <div class="col-8 col-md-6 col-xl-5 text-center jumbotron-center">
-                    <div class="row">
+   
+                  <div class="col-8 col-md-6 col-xl-5 mx-auto text-center jumbotron-center">
+                     <div class="row">
                         <div class="col-12">
-                            <img class="mt-2" src="img/logo.webp" alt="Funhouse Logo" style="border-radius: 65px;">
+                           <img class="mt-2" src="img/logo.webp" alt="Funhouse Logo" style="border-radius: 65px;">
                         </div>
                         <div class="col-12">
-                            <h1>Funhouse Pottery</h1>
+                           <h1>Funhouse Pottery</h1>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <p class="text-end"><a href="cart.html"><i class="fa fa-shopping-cart fa-lg" ></i></a></p>
-                </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </header>
+         </header>
 
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
             <div class="container">
@@ -51,6 +47,11 @@
                         <li class="nav-item active"><a class="nav-link" href="#"> Friends</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html"></i> About the Potter</a></li>
                     </ul>
+                    <span class="navbar-text ml-auto">
+                        <a role="button" href="cart.html" id="cart">
+                            <i class="fa fa-shopping-cart fa-lg"></i> Cart
+                        </a>
+                    </span>
                 </div>
             </div>
         </nav>
@@ -71,7 +72,7 @@
                     <div class="media">
                         <img class="d-flex mr-3" src="img/atlaspot.webp" alt="Atlas Pot"/>
                         <div class="media-body align-self-center">
-                            <p class="d-sm-block d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+                            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
                         </div>
                     </div>
                 </div>
@@ -84,14 +85,20 @@
                                 <a data-toggle="collapse" data-target="#trendzCard">
                                     <h4 class="friends-title">Trendz &ensp;<small>Marble Falls, TX</small></h4>
                                 </a>
-                                <div class="collapse show" id="trendzCard" data-parent="#accordion">
-                                    <div class="card-body friends-body">
+                                <div class="collapse show friends-body" id="trendzCard" data-parent="#accordion">
+                                    <div class="card-body">
                                         <div class="media">
                                             <img class="d-flex" src="img/trendz.webp" alt="Trendz in Marble Falls"/>
                                             <div class="media-body align-self-center">
                                                 <p class="text-center">203 Main St.<br/>Marble Falls, TX<br/>830-637-7171<br/>trendzmarblefalls.weebly.com</p>
                                             </div>
                                         </div>
+                                    </div>
+                                    <!--Google Maps plugin-->
+                                    <div class="text-center">
+                                        <iframe width="375" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=375&amp;height=200&amp;hl=en&amp;q=203%20Main%20St.%20Marble%20Falls,%20TX%20+(Trendz)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+                                        <a href='https://embedmap.org/'>embedding google maps in website</a> 
+                                        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=05a89e11a7f188b12f12ac4bc6b5ccd36cc42363'></script>
                                     </div>
                                 </div>
                             </div>
@@ -101,14 +108,20 @@
                                 <a data-toggle="collapse" data-target="#texceteraCard">
                                     <h4 class="friends-title">Texcetera &ensp;<small>Johnson City, TX</small></h4>
                                 </a>
-                                <div class="collapse" id="texceteraCard" data-parent="#accordion">
-                                    <div class="card-body friends-body">
+                                <div class="collapse friends-body" id="texceteraCard" data-parent="#accordion">
+                                    <div class="card-body">
                                         <div class="media">
                                             <img class="d-flex" src="img/texcetera.webp" alt="Texcetera in Johnson City"/>
                                             <div class="media-body align-self-center">
                                                 <p class="text-center">207 N. Nugen Ave.<br/>Johnson City, TX<br/>830-868-2419<br/>www.texcetera.net</p>
                                             </div>
                                         </div>
+                                    </div>
+                                    <!--Google Maps plugin-->
+                                    <div class="text-center">
+                                        <iframe width="375" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=375&amp;height=200&amp;hl=en&amp;q=207%20N.%20Nugen%20Ave.%20Johnson%20City,%20TX%20+(Texcetera)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+                                        <a href='https://embedmap.org/'>embedding google maps in website</a> 
+                                        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=69dbd17d8948ba8b8fdfc48780e38e6c67e1429a'></script>
                                     </div>
                                 </div>
                             </div>
@@ -118,14 +131,20 @@
                                 <a data-toggle="collapse" data-target="#sansabaCard">
                                     <h4 class="friends-title">San Saba Oil Company &ensp;<small>San Saba, TX</small></h4>
                                 </a>
-                                <div class="collapse" id="sansabaCard" data-parent="#accordion">
-                                    <div class="card-body friends-body">
+                                <div class="collapse friends-body" id="sansabaCard" data-parent="#accordion">
+                                    <div class="card-body">
                                         <div class="media">
                                             <img class="d-flex" src="img/sansaba.webp" alt="San Saba Olive Oil Company in San Saba"/>
                                             <div class="media-body align-self-center">
                                                 <p class="text-center">207 East Wallace<br/>San Saba, TX<br/>325-372-4999<br/>www.sansabaoliveoilcompany.com</p>
                                             </div>
                                         </div>
+                                    </div>
+                                    <!--Google Maps plugin-->
+                                    <div class="text-center">
+                                        <iframe width="375" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=375&amp;height=200&amp;hl=en&amp;q=207%20East%20Wallace%20San%20Saba,%20TX%20+(San%20Saba%20Oil%20Company)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+                                        <a href='https://embedmap.org/'>embedding google maps in website</a> 
+                                        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=05badd51bfd3c919dff097f48f49c8ee4f3770a3'></script>
                                     </div>
                                 </div>
                             </div>
@@ -135,14 +154,20 @@
                                 <a data-toggle="collapse" data-target="#artisansCard">
                                     <h4 class="friends-title">Artisans &ensp;<small>Fredericksburg, TX</small></h4>
                                 </a>
-                                <div class="collapse" id="artisansCard" data-parent="#accordion">
-                                    <div class="card-body friends-body">
+                                <div class="collapse friends-body" id="artisansCard" data-parent="#accordion">
+                                    <div class="card-body">
                                         <div class="media">
                                             <img class="d-flex" src="img/artisans.webp" alt="Artisans in Fredericksburg"/>
                                             <div class="media-body align-self-center">
                                                 <p class="text-center">234 West Main St.<br/>Fredericksburg, TX<br/>830-990-8160<br/>www.ArtisansTexas.com</p>
                                             </div>
                                         </div>
+                                    </div>
+                                    <!--Google Maps plugin-->
+                                    <div class="text-center">
+                                        <iframe width="375" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=375&amp;height=200&amp;hl=en&amp;q=234%20West%20Main%20St.%20Fredericksburg,%20TX%20+(Artisans)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+                                        <a href='https://embedmap.org/'>embedding google maps in website</a> 
+                                        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=704a14401774dc4c2bcb9819871addd999df4737'></script>
                                     </div>
                                 </div>
                             </div>

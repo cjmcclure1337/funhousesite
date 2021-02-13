@@ -35,8 +35,6 @@ a:active {
     border-bottom: 1px solid $color-pale;
 }
 
-
-
 body {
     background-color: $color-pale;
 }
@@ -165,8 +163,19 @@ p {
 
 .jumbotron-center {
     /* Center rectangle on the header */
-background: $color-secondary;
-border-radius: 29px;
+    background: $color-secondary;
+    border-radius: 29px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: $color-primary; 
+    font-family: 'Acme', sans-serif;
+}
+
+.navbar-text a {
+    border-bottom: none;
 }
 
 .nav-item a {
@@ -183,11 +192,6 @@ border-radius: 29px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.navbar {
-    background-color: $color-primary; 
-    font-family: 'Acme', sans-serif;
 }
 
 .row-content {

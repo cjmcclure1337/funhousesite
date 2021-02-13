@@ -128,7 +128,16 @@ p {
 .jumbotron-center {
   /* Center rectangle on the header */
   background: #11698E;
-  border-radius: 29px; }
+  border-radius: 29px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.navbar {
+  background-color: #19456b;
+  font-family: 'Acme', sans-serif; }
+
+.navbar-text a {
+  border-bottom: none; }
 
 .nav-item a {
   border-bottom: none;
@@ -142,10 +151,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-
-.navbar {
-  background-color: #19456b;
-  font-family: 'Acme', sans-serif; }
 
 .row-content {
   padding: 50px 0;
